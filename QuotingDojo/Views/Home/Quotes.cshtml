@@ -1,0 +1,7 @@
+<h1>Quotes!</h1>
+
+@foreach(var user in @ViewBag.allUsers){
+    <p margin-left:20px>"@user["Quote"]"</p>
+    <p margin-left:40px> -@user["Name"]</p>
+    <hr>
+}

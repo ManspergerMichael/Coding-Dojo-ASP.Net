@@ -1,0 +1,11 @@
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/bin/Debug/netcoreapp2.0/Human.deps.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/bin/Debug/netcoreapp2.0/Human.runtimeconfig.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/bin/Debug/netcoreapp2.0/Human.runtimeconfig.dev.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/bin/Debug/netcoreapp2.0/Human.dll
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/bin/Debug/netcoreapp2.0/Human.pdb
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/obj/Debug/netcoreapp2.0/Human.csprojResolveAssemblyReference.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/obj/Debug/netcoreapp2.0/Human.csproj.CoreCompileInputs.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/obj/Debug/netcoreapp2.0/Human.AssemblyInfoInputs.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/obj/Debug/netcoreapp2.0/Human.AssemblyInfo.cs
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/obj/Debug/netcoreapp2.0/Human.dll
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/Human/obj/Debug/netcoreapp2.0/Human.pdb

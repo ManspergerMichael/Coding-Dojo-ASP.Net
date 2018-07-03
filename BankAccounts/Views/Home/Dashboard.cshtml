@@ -1,0 +1,27 @@
+
+@model List<Account>
+<h1>Welcome @Model[0].User.FirstName</h1>
+<h3>Current Balance @Model[0].Balance</h3>
+
+<form asp-action="Process" asp-controller="Home" method="POST">
+    <label for="change">Deposit/Withdraw</label>
+    <input type="number" name="change">
+    <input type="submit" value="submit">
+</form>
+
+<table class="table">
+    <th>
+        <tr>
+        <td>Ammount</td>
+        <td>Date</td>
+        </tr>
+    </th>
+    <tbody>
+        @foreach(var item in @Model[0].Transactions){
+            <tr>
+                <td>@item.BalanceChange</td>
+                <td>@item.Date</td>
+            </tr>
+        }
+    </tbody>
+</table>

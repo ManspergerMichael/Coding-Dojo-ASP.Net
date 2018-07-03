@@ -1,0 +1,8 @@
+@model User
+<h1>You have succsessfully logged in or registered</h1>
+
+<h3>List of Users</h3>
+@foreach(User guy in @ViewBag.Users){
+    <p>First Name:@guy.firstName  Last Name: @guy.lastName</p>
+    <hr>
+}

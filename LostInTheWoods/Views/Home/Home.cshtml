@@ -1,0 +1,19 @@
+@model Trail
+<h1>Lost in the Woods</h1>
+<table class="table">
+    <tr>
+        <th scope="col">Trail Name</th>
+        <th scope="col">Trail Length</th>
+        <th scope="col">Elevation Change</th>
+    </tr>
+    <tbody>
+        @foreach(var trail in @ViewBag.trails){
+            <tr>
+                <td>@trail.trailName</td>
+                <td>@trail.trailLength</td>
+                <td>@trail.elevationChange</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="NewTrail"><button>Add a new Trail</button></a>

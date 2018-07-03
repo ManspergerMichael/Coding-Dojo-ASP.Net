@@ -1,0 +1,13 @@
+<div class="nav">
+    <a href="Planner"><button>Dashboard</button></a>
+    <a href="Logout"><button>Logout</button></a>
+</div>
+
+<h1>@ViewBag.detail.WedderOne & @ViewBag.detail.WedderTwo 's Wedding</h1>
+
+<h3>Date: @ViewBag.detail.Date</h3>
+<h3>Guest List</h3>
+@foreach(var guest in @ViewBag.detail.GuestList){
+    <p>@guest.User.FirstName @guest.User.LastName</p>
+}
+

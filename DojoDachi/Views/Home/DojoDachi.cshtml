@@ -1,0 +1,19 @@
+@model DojoDachiGuy
+
+<p>Happiness: @ViewBag.happyness Fullness: @ViewBag.fullness Energy: @ViewBag.energy Meals: @ViewBag.meals</p>
+    
+    @if(@ViewBag.alive == false){
+        <p>DOJODACHI IS DEAD! YOU MONSTER!!!</p>
+        <a href="reset"><button>Reset</button></a>
+    }
+    else if(@ViewBag.win == true){
+        <p>A WINNER IS YOU!!!</p>
+        <a href="reset"><button>Reset</button></a>
+    }
+    else{
+        <p>@ViewBag.responce</p>
+        <a href="feed"><button>Feed</button></a>
+        <a href="play"><button>Play</button></a>
+        <a href="sleep"><button>Sleep</button></a>
+        <a href="work"><button>Work</button></a>
+        }

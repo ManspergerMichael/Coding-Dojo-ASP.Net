@@ -1,0 +1,26 @@
+
+<h1>You Reached The Wall</h1>
+<div class="container">
+<span>@ViewBag.MessageError</span>
+<form asp-action="NewMessage" asp-controller="Home" method="POST">
+    <label for="MessageText">New Message</label>
+    <textarea name="MessageText" rows=3 cols="20"></textarea><br>
+    <input type="submit" value="Post"> 
+</form>
+
+@foreach(User user in @ViewBag.data){
+    @foreach(Message message in user.Messages){
+        <p><b>@message.MessageText</b></p>
+        <p>-@user.FirstName Date:@message.createdAt</p>
+        @foreach(Comment comment in message.Comments){
+            <p>@comment.CommentText</p>
+            <p>-@comment.User.FirstName Date:@comment.createdAt</p>
+        }
+        <form asp-action="NewComment" asp-controller="Home" method="POST">
+            <input type="hidden" name="messageID" value="@message.MessageID">
+            <textarea name="commentText" rows="3" cols="20"></textarea><br>
+            <input type="submit" value="Post Comment">
+        </form>
+    }
+}
+</div>

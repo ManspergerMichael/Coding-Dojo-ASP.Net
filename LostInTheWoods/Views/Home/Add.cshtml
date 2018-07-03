@@ -1,0 +1,24 @@
+@model Trail
+<h1>Add A New Trail</h1>
+
+<form asp-action="Add" asp-controller="Home" method="POST">
+    <div class="form-group">
+        <span asp-validation-for="trailName"></span>
+        <label asp-for="trailName">Trail Name:</label>
+        <input asp-for="trailName"><br>
+        <span asp-validation-for="Description"></span>
+        <label asp-for="Description">Description</label>
+        <input asp-for="Description"><br>
+        <span asp-validation-for="trailLength"></span>
+        <label asp-for="trailLength">Trail Length</label>
+        <input asp-for="trailLength"><br>
+        <span asp-validation-for="elevationChange"></span>
+        <label asp-for="elevationChange">Elevation Change:</label>
+        <input asp-for="elevationChange"><br>
+        <span asp-validation-for="Longitude"></span>
+        <span asp-validation-for="Latitude"></span>
+        <label>Longitude & Latitude</label>
+        <input asp-for="Longitude"> <input asp-for="Latitude"><br>
+        <input value="Create Record" type="submit">
+    </div>
+</form>

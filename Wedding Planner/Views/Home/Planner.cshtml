@@ -1,0 +1,34 @@
+
+<h1>WeddingPlanner</h1>
+<div class="nav">
+    <a href="Logout"><button>Logout</button></a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Wedding</td>
+            <td>Date</td>
+            <td>Guest</td>
+            <td>Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Wedding wed in @ViewBag.List){
+            <tr>
+                <td><a href="Details/@wed.WeddingID"> @wed.WedderOne & @wed.WedderTwo</a></td>
+                <td>@wed.Date</td>
+                <td>@wed.Guests</td>
+                @{
+                    if(@ViewBag.UserID == @wed.UserID)
+                    {<td><a href="Delete/@wed.WeddingID">Cancel</a></td>}
+                    else if(wed.GuestList.Where(g => g.UserID == ViewBag.UserID).SingleOrDefault() == null)
+                    {<td><a href="RSVP/@wed.WeddingID">RSVP</a></td>}
+                    else if(wed.GuestList.Where(g => g.UserID == ViewBag.UserID).SingleOrDefault() != null)
+                    {<td><a href="UNRSVP/@wed.WeddingID">Un-RSVP</a></td>}
+                    
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="NewWedding"><button>New Wedding</button></a>

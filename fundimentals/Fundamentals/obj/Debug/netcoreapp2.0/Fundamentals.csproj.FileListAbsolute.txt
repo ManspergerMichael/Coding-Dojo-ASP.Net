@@ -1,0 +1,10 @@
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/obj/Debug/netcoreapp2.0/Fundamentals.csproj.CoreCompileInputs.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/obj/Debug/netcoreapp2.0/Fundamentals.AssemblyInfoInputs.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/obj/Debug/netcoreapp2.0/Fundamentals.AssemblyInfo.cs
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/bin/Debug/netcoreapp2.0/Fundamentals.deps.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/bin/Debug/netcoreapp2.0/Fundamentals.runtimeconfig.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/bin/Debug/netcoreapp2.0/Fundamentals.runtimeconfig.dev.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/bin/Debug/netcoreapp2.0/Fundamentals.dll
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/bin/Debug/netcoreapp2.0/Fundamentals.pdb
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/obj/Debug/netcoreapp2.0/Fundamentals.dll
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/fundimentals/Fundamentals/obj/Debug/netcoreapp2.0/Fundamentals.pdb

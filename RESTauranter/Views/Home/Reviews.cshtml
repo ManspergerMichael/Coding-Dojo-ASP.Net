@@ -1,0 +1,10 @@
+@model reviews
+<h1>List of reviews</h1>
+
+@foreach(reviews rev in @ViewBag.reviews){
+    <p>Review for: @rev.resturant Stars: @rev.stars</p>
+    <p>Reviewer: @rev.name, @rev.date</p>
+    <p>@rev.review</p>
+
+    <hr>
+}

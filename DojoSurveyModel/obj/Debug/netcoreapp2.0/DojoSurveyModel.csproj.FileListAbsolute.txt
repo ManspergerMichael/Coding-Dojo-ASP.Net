@@ -1,0 +1,11 @@
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/bin/Debug/netcoreapp2.0/DojoSurveyModel.deps.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/bin/Debug/netcoreapp2.0/DojoSurveyModel.runtimeconfig.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/bin/Debug/netcoreapp2.0/DojoSurveyModel.runtimeconfig.dev.json
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/bin/Debug/netcoreapp2.0/DojoSurveyModel.dll
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/bin/Debug/netcoreapp2.0/DojoSurveyModel.pdb
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/obj/Debug/netcoreapp2.0/DojoSurveyModel.csprojResolveAssemblyReference.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/obj/Debug/netcoreapp2.0/DojoSurveyModel.csproj.CoreCompileInputs.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/obj/Debug/netcoreapp2.0/DojoSurveyModel.AssemblyInfoInputs.cache
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/obj/Debug/netcoreapp2.0/DojoSurveyModel.AssemblyInfo.cs
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/obj/Debug/netcoreapp2.0/DojoSurveyModel.dll
+/Users/michaelmansperger/Desktop/DojoAssignments/netCore/DojoSurveyModel/obj/Debug/netcoreapp2.0/DojoSurveyModel.pdb
